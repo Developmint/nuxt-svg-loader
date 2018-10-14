@@ -1,7 +1,7 @@
 const { resolve } = require('path')
 const consola = require('consola')
+
 module.exports = {
-  dev: false,
   rootDir: resolve(__dirname, '../../../'),
   srcDir: resolve(__dirname, '../'),
   render: {
@@ -10,7 +10,7 @@ module.exports = {
   modules: ['@@'],
   build: {
     extend() {
-      consola.log('Build fn')
+      consola.fatal('Build fn')
     }
   }
 }
