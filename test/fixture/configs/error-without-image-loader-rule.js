@@ -7,5 +7,5 @@ module.exports = {
   render: {
     resourceHints: false
   },
-  modules: ['@@', '@/modules/error'],
+  modules: ['@@', '@/modules/error']
 }
