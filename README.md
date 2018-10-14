@@ -17,6 +17,10 @@
 * Nuxt 2 (and only Nuxt 2) support
 * Fully tested!
 
+## Demo
+
+A [live demo](https://zxr9l743l3.sse.codesandbox.io/) is available through the [CodeSandBox](https://codesandbox.io/s/github/Developmint/nuxt-svg-loader/tree/master) of the repo
+
 ## Setup
 
 - Add `nuxt-svg-loader` dependency using yarn or npm to your project
