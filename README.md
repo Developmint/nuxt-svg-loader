@@ -1,7 +1,7 @@
 # Nuxt SVG Loader - SVGs as components, also on the server side!
 [![npm (scoped with tag)](https://img.shields.io/npm/v/nuxt-svg-loader/latest.svg?style=flat-square)](https://npmjs.com/package/nuxt-svg-loader)
 [![npm](https://img.shields.io/npm/dt/nuxt-svg-loader.svg?style=flat-square)](https://npmjs.com/package/nuxt-svg-loader)
-[![Build Status](https://travis-ci.org/Developmint/nuxt-svg-loader.svg?branch=master)](https://travis-ci.org/Developmint/nuxt-svg-loader)
+[![Build Status](https://travis-ci.com/Developmint/nuxt-svg-loader.svg?branch=master)](https://travis-ci.com/Developmint/nuxt-svg-loader)
 [![codecov](https://codecov.io/gh/Developmint/nuxt-svg-loader/branch/master/graph/badge.svg)](https://codecov.io/gh/Developmint/nuxt-svg-loader)
 [![Dependencies](https://david-dm.org/Developmint/nuxt-svg-loader/status.svg?style=flat-square)](https://david-dm.org/Developmint/nuxt-svg-loader)
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
