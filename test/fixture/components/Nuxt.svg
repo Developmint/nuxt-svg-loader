@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+	 viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#222222;}
+	.st3{fill:#41B883;}
+	.st4{fill:#328170;}
+	.st5{fill:#35495E;}
+</style>
+<g id="nuxt">
+	<path class="st3" d="M317.9,852h-151H3.7l408.1-704l408.1,704H658.7h-151"/>
+	<path class="st4" d="M779.8,852h216.5l-354-608.5L291.3,852h216.5"/>
+	<path class="st5" d="M651.2,852h159.5L549.9,403.8L291.3,852h159.5"/>
+</g>
+</svg>
