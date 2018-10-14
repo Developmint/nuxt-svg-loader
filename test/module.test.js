@@ -2,7 +2,7 @@ const consola = require('consola')
 const getPort = require('get-port')
 const { Nuxt, Builder } = require('nuxt')
 
-jest.setTimeout(30 * 1000)
+jest.setTimeout(60 * 1000)
 
 let nuxt, port
 
