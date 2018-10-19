@@ -23,7 +23,7 @@ A [live demo](https://zxr9l743l3.sse.codesandbox.io/) is available through the [
 
 ## Setup
 
-- Add `nuxt-svg-loader` dependency using yarn or npm to your project
+- Add `nuxt-svg-loader` as a dev dependency using yarn or npm to your project
 - Add `nuxt-svg-loader` to `modules` section of `nuxt.config.js`
 
 ```js
@@ -32,6 +32,40 @@ A [live demo](https://zxr9l743l3.sse.codesandbox.io/) is available through the [
     'nuxt-svg-loader',
   ],
 }
+```
+
+- Now you can use your svg files like regular Vue components
+```
+<template>
+  <nav>
+    <a href="https://github.com/vuejs/vue">
+      <VueLogo />
+      Vue
+    </a>
+    <a href="https://github.com/svg/svgo">
+      <SVGOLogo />
+      SVGO
+    </a>
+    <a href="https://github.com/webpack/webpack">
+      <WebpackLogo />
+      webpack
+    </a>
+  </nav>
+</template>
+<script>
+import VueLogo from '@/assets/svg/vue.svg';
+import SVGOLogo from '@/assets/svg/svgo.svg';
+import WebpackLogo from '@/assets/svg/webpack.svg';
+
+export default {
+  name: 'Example',
+  components: {
+    VueLogo,
+    SVGOLogo,
+    WebpackLogo,
+  },
+};
+</script>
 ```
 
 - No more options are needed. It'll simply work
