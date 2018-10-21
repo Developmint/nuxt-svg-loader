@@ -23,7 +23,7 @@ A [live demo](https://zxr9l743l3.sse.codesandbox.io/) is available through the [
 
 ## Setup
 
-- Add `nuxt-svg-loader` as a dev dependency using yarn or npm to your project
+- Add `nuxt-svg-loader` as a dependency using yarn or npm to your project
 - Add `nuxt-svg-loader` to `modules` section of `nuxt.config.js`
 
 ```js
