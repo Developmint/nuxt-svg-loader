@@ -5,6 +5,7 @@
 [![codecov](https://codecov.io/gh/Developmint/nuxt-svg-loader/branch/master/graph/badge.svg)](https://codecov.io/gh/Developmint/nuxt-svg-loader)
 [![Dependencies](https://david-dm.org/Developmint/nuxt-svg-loader/status.svg?style=flat-square)](https://david-dm.org/Developmint/nuxt-svg-loader)
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
+ [![thanks](https://img.shields.io/badge/thanks-%E2%99%A5-ff69b4.svg)](https://thanks.lichter.io/)
 
 >
 
