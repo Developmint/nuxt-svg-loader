@@ -41,6 +41,13 @@ describe('ssr', () => {
     expect(html).toMatchSnapshot()
   })
 
+  test('honor custom loader options', async () => {
+    nuxt = await setupNuxt(require('./fixture/configs/with-options'))
+
+    const { html } = await nuxt.renderRoute('/')
+    expect(html).toMatchSnapshot()
+  })
+
   afterEach(async () => {
     if (nuxt) {
       await nuxt.close()

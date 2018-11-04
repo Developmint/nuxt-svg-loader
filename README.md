@@ -71,6 +71,28 @@ export default {
 
 - No more options are needed. It'll simply work
 
+## Configuration
+
+The plugin will work seamlessly out of the box. If you are in need of
+configuring the loader options (eg for [id prefixing](https://vue-svg-loader.js.org/faq.html#how-to-use-both-inline-and-external-svgs)),
+you can do that:
+
+```js
+// file: nuxt.config.js
+
+export default {
+  // ...
+  // Your loader options as svgLoader object
+  svgLoader: {
+    svgo: {
+      plugins: [
+        { prefixIds: true },
+      ]
+    }
+  }
+}
+```
+
 ## Development
 
 - Clone this repository
