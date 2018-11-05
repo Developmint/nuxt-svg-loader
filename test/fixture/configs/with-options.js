@@ -13,5 +13,11 @@ module.exports = {
         { prefixIds: true }
       ]
     }
+  },
+  build: {
+    filenames: {
+      app: '[name].js',
+      chunk: '[name].js'
+    }
   }
 }
