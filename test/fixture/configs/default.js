@@ -6,5 +6,11 @@ module.exports = {
   render: {
     resourceHints: false
   },
-  modules: ['@@']
+  modules: ['@@'],
+  build: {
+    filenames: {
+      app: '[name].js',
+      chunk: '[name].js'
+    }
+  }
 }

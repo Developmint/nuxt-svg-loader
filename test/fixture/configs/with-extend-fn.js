@@ -9,6 +9,10 @@ module.exports = {
   },
   modules: ['@@'],
   build: {
+    filenames: {
+      app: '[name].js',
+      chunk: '[name].js'
+    },
     extend() {
       consola.fatal('Build fn')
     }
