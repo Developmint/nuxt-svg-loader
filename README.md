@@ -21,7 +21,7 @@
 
 ## Demo
 
-A [live demo](https://zxr9l743l3.sse.codesandbox.io/) is available through the [CodeSandBox](https://codesandbox.io/s/github/Developmint/nuxt-svg-loader/tree/master) of the repo
+A live demo is available through the [CodeSandBox](https://codesandbox.io/s/github/Developmint/nuxt-svg-loader/tree/master) of the repo.
 
 ## Setup
 
