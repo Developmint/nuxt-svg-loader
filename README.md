@@ -65,7 +65,7 @@ export default {
     VueLogo,
     SVGOLogo,
     WebpackLogo,
-  },
+  }
 };
 </script>
 ```
@@ -89,7 +89,7 @@ export default {
   svgLoader: {
     svgoConfig: {
       plugins: [
-        { prefixIds: false }, // Disables prefixing for SVG IDs
+        { prefixIds: false } // Disables prefixing for SVG IDs
       ]
     }
   }
