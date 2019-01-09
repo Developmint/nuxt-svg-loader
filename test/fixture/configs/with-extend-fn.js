@@ -9,6 +9,7 @@ module.exports = {
   },
   modules: ['@@'],
   build: {
+    quiet: false,
     filenames: {
       app: '[name].js',
       chunk: '[name].js'

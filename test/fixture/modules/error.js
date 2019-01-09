@@ -1,6 +1,7 @@
 module.exports = function () {
-  this.extendBuild((config, options) => {
-    const imageLoaderRule = config.module.rules.find(rule => rule.test && /svg/.test(rule.test.toString()))
+  const svgRulePredicate = rule => rule.test && rule.test.test('.svg')
+  this.extendBuild((config) => {
+    const imageLoaderRule = config.module.rules.find(svgRulePredicate)
     imageLoaderRule.test = /^$/
   })
 }

@@ -8,6 +8,7 @@ module.exports = {
   },
   modules: ['@@', '@/modules/error'],
   build: {
+    quiet: false,
     filenames: {
       app: '[name].js',
       chunk: '[name].js'

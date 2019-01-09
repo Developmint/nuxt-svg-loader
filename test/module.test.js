@@ -7,18 +7,15 @@ jest.setTimeout(60 * 1000)
 let nuxt, port
 
 describe('ssr', () => {
-  let log
-
   beforeEach(() => {
-    log = jest.fn()
-    consola.clear().add({ log })
+    consola.mockTypes(() => jest.fn())
   })
 
   test('emit error when loader can\'t be registered', async () => {
     try {
       await setupNuxt(require('./fixture/configs/error-without-image-loader-rule'))
     } catch (e) {
-      expect(e).toBe('Nuxt Build Error')
+      expect(e.message).toBe('Nuxt Build Error')
       return
     }
     Error('Never reach this state')
@@ -34,7 +31,7 @@ describe('ssr', () => {
     nuxt = await setupNuxt(require('./fixture/configs/with-extend-fn'))
 
     const messageInExtendFunction = 'Build fn'
-    const consolaMessages = log.mock.calls.map(c => c[0].message)
+    const consolaMessages = consola.fatal.mock.calls.map(c => c[0])
     expect(consolaMessages).toContain(messageInExtendFunction)
 
     const { html } = await nuxt.renderRoute('/')
