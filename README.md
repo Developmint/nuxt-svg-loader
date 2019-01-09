@@ -14,7 +14,7 @@
 ## Features
 
 * Full support of SVGs as components. Import them like your Vue SFCs
-* Built on top of [vue-svg-loader](https://github.com/visualfanatic/vue-svg-loader)
+* Built on top of [svg-to-vue-component](https://github.com/egoist/svg-to-vue-component)
 * Nuxt 2 (and only Nuxt 2) support
 * Fully tested!
 

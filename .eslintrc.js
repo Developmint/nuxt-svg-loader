@@ -6,5 +6,10 @@ module.exports = {
   },
   extends: [
     '@nuxtjs'
-  ]
+  ],
+  rules: {
+    'vue/attribute-hyphenation': ['error', 'always', {
+      ignore: ['viewBox']
+    }]
+  }
 }
