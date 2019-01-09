@@ -21,9 +21,9 @@ describe('ssr', () => {
     Error('Never reach this state')
   })
 
-  test('correctly register SVG loader and load SVG correctly', async () => {
+  test('correctly load two lazy-loaded SVGs', async () => {
     const nuxt = await setupNuxt(require('./fixture/configs/default'))
-    const { html } = await nuxt.renderRoute('/')
+    const { html } = await nuxt.renderRoute('/two')
     expect(html).toMatchSnapshot()
   })
 
