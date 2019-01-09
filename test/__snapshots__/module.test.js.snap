@@ -13,7 +13,7 @@ exports[`ssr correctly register SVG loader and load SVG correctly 1`] = `
 }</style>
   </head>
   <body data-n-head=\\"\\">
-    <div data-server-rendered=\\"true\\" id=\\"__nuxt\\"><!----><div id=\\"__layout\\"><svg viewBox=\\"1 2 3 4\\" width=\\"100\\"><g id=\\"nuxt\\"><path d=\\"M317.9 852H3.7l408.1-704 408.1 704H507.7\\" fill=\\"#41b883\\"></path><path d=\\"M779.8 852h216.5l-354-608.5-351 608.5h216.5\\" fill=\\"#328170\\"></path><path d=\\"M651.2 852h159.5L549.9 403.8 291.3 852h159.5\\" fill=\\"#35495e\\"></path></g></svg></div></div><script>window.__NUXT__={layout:\\"default\\",data:[{}],error:null,serverRendered:true};</script><script src=\\"/_nuxt/runtime.js\\" defer></script><script src=\\"/_nuxt/pages/index.js\\" defer></script><script src=\\"/_nuxt/commons.app.js\\" defer></script><script src=\\"/_nuxt/app.js\\" defer></script>
+    <div data-server-rendered=\\"true\\" id=\\"__nuxt\\"><!----><div id=\\"__layout\\"><svg viewBox=\\"1 2 3 4\\" width=\\"100\\"><g id=\\"Nuxt_svg__nuxt\\"><path d=\\"M317.9 852H3.7l408.1-704 408.1 704H507.7\\" fill=\\"#41b883\\"></path><path d=\\"M779.8 852h216.5l-354-608.5-351 608.5h216.5\\" fill=\\"#328170\\"></path><path d=\\"M651.2 852h159.5L549.9 403.8 291.3 852h159.5\\" fill=\\"#35495e\\"></path></g></svg></div></div><script>window.__NUXT__={layout:\\"default\\",data:[{}],error:null,serverRendered:true};</script><script src=\\"/_nuxt/runtime.js\\" defer></script><script src=\\"/_nuxt/pages/index.js\\" defer></script><script src=\\"/_nuxt/commons.app.js\\" defer></script><script src=\\"/_nuxt/app.js\\" defer></script>
   </body>
 </html>
 "
@@ -32,7 +32,7 @@ exports[`ssr honor custom build.extend function 1`] = `
 }</style>
   </head>
   <body data-n-head=\\"\\">
-    <div data-server-rendered=\\"true\\" id=\\"__nuxt\\"><!----><div id=\\"__layout\\"><svg viewBox=\\"1 2 3 4\\" width=\\"100\\"><g id=\\"nuxt\\"><path d=\\"M317.9 852H3.7l408.1-704 408.1 704H507.7\\" fill=\\"#41b883\\"></path><path d=\\"M779.8 852h216.5l-354-608.5-351 608.5h216.5\\" fill=\\"#328170\\"></path><path d=\\"M651.2 852h159.5L549.9 403.8 291.3 852h159.5\\" fill=\\"#35495e\\"></path></g></svg></div></div><script>window.__NUXT__={layout:\\"default\\",data:[{}],error:null,serverRendered:true};</script><script src=\\"/_nuxt/runtime.js\\" defer></script><script src=\\"/_nuxt/pages/index.js\\" defer></script><script src=\\"/_nuxt/commons.app.js\\" defer></script><script src=\\"/_nuxt/app.js\\" defer></script>
+    <div data-server-rendered=\\"true\\" id=\\"__nuxt\\"><!----><div id=\\"__layout\\"><svg viewBox=\\"1 2 3 4\\" width=\\"100\\"><g id=\\"Nuxt_svg__nuxt\\"><path d=\\"M317.9 852H3.7l408.1-704 408.1 704H507.7\\" fill=\\"#41b883\\"></path><path d=\\"M779.8 852h216.5l-354-608.5-351 608.5h216.5\\" fill=\\"#328170\\"></path><path d=\\"M651.2 852h159.5L549.9 403.8 291.3 852h159.5\\" fill=\\"#35495e\\"></path></g></svg></div></div><script>window.__NUXT__={layout:\\"default\\",data:[{}],error:null,serverRendered:true};</script><script src=\\"/_nuxt/runtime.js\\" defer></script><script src=\\"/_nuxt/pages/index.js\\" defer></script><script src=\\"/_nuxt/commons.app.js\\" defer></script><script src=\\"/_nuxt/app.js\\" defer></script>
   </body>
 </html>
 "
