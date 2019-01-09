@@ -55,7 +55,7 @@
     "forceExit": true
   },
   "dependencies": {
-    "consola": "^1.4.5",
+    "consola": "^2.3.2",
     "svg-to-vue-component": "^0.2.6"
   },
   "devDependencies": {
@@ -76,7 +76,7 @@
     "husky": "^1.2.0",
     "jest": "^23.6.0",
     "jsdom": "^13.0.0",
-    "nuxt-edge": "^2.3.0-25706271.cca799c",
+    "nuxt-edge": "^2.4.0-25783204.eef2af35",
     "standard-version": "^4.4.0"
   },
   "husky": {

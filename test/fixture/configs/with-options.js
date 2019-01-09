@@ -10,7 +10,7 @@ module.exports = {
   svgLoader: {
     svgo: {
       plugins: [
-        { prefixIds: true }
+        { prefixIds: false }
       ]
     }
   },
