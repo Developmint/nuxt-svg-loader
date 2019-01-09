@@ -1,5 +1,5 @@
 <template>
-  <nuxt-logo/>
+  <nuxt-logo viewBox="1 2 3 4" width="100" />
 </template>
 
 <script>
