@@ -1,6 +1,8 @@
 <template>
-  <nuxt-logo viewBox="1 2 3 4" width="100" />
-  <nuxt-logo-two />
+  <div>
+    <nuxt-logo viewBox="1 2 3 4" width="100" />
+    <nuxt-logo-two />
+  </div>
 </template>
 
 <script>
