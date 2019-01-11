@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/Developmint/nuxt-svg-loader/compare/v0.1.0...v1.1.0) (2019-01-11)
+
+
+### Bug Fixes
+
+* check if options is a thing ([ec9999f](https://github.com/Developmint/nuxt-svg-loader/commit/ec9999f))
+* re-enable lazy-loading capabilities ([#28](https://github.com/Developmint/nuxt-svg-loader/issues/28)) ([e7928ab](https://github.com/Developmint/nuxt-svg-loader/commit/e7928ab))
+
+
+### Features
+
+* replaced vue-svg-loader with svg-to-vue-component ([#19](https://github.com/Developmint/nuxt-svg-loader/issues/19)) ([6061109](https://github.com/Developmint/nuxt-svg-loader/commit/6061109))
+* use default options from svg-to-vue and add svgo backwards compat ([84a84b7](https://github.com/Developmint/nuxt-svg-loader/commit/84a84b7))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/Developmint/nuxt-svg-loader/compare/v0.1.0...v1.0.0) (2019-01-09)
 
