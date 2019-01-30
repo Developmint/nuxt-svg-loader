@@ -114,6 +114,27 @@ export default {
 }
 ```
 
+## How to fix Eslint auto lint error
+If you turn on Eslint on save by server, you should exclude `.svg` files of `eslint-loader`.
+
+Example:
+```js
+// nuxt.config.js
+build: {
+    extend(config, ctx) {
+    // Run ESLint on save
+    if (ctx.isDev && ctx.isClient) {
+      config.module.rules.push({
+        enforce: 'pre',
+        test: /\.(js|vue)$/,
+        loader: 'eslint-loader',
+        exclude: /(node_modules)||(.svg$)/ /* <--- here */
+      })
+    }
+  }
+}
+```
+
 ## Development
 
 - Clone this repository
