@@ -128,7 +128,7 @@ build: {
         enforce: 'pre',
         test: /\.(js|vue)$/,
         loader: 'eslint-loader',
-        exclude: /(node_modules)||(.svg$)/ /* <--- here */
+        exclude: /(node_modules)|(\.svg$)/ /* <--- here */
       })
     }
   }
