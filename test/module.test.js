@@ -45,6 +45,12 @@ describe('ssr', () => {
     expect(html).toMatchSnapshot()
   })
 
+  test('correctly load SVG as background image', async () => {
+    const nuxt = await setupNuxt(require('./fixture/configs/default'))
+    const { html } = await nuxt.renderRoute('/background-image')
+    expect(html).toMatchSnapshot()
+  })
+
   afterEach(async () => {
     if (nuxt) {
       await nuxt.close()
