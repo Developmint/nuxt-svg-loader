@@ -4,10 +4,10 @@ exports[`ssr correctly load SVG as background image 1`] = `
 "<!doctype html>
 <html data-n-head-ssr data-n-head=\\"\\">
   <head data-n-head=\\"\\">
-    <title data-n-head=\\"true\\"></title><style data-vue-ssr-id=\\"17cfdfa9:0\\">.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}</style>
+    <title data-n-head=\\"true\\"></title><style data-vue-ssr-id=\\"17cfdfa9:0\\">.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}</style><style data-vue-ssr-id=\\"7bcfa2f0:0\\">h1{background:url(/_nuxt/NuxtTwo.svg)}</style>
   </head>
   <body data-n-head=\\"\\">
-    <div data-server-rendered=\\"true\\" id=\\"__nuxt\\"><!----><div id=\\"__layout\\"><div></div></div></div><script>window.__NUXT__={layout:\\"default\\",data:[{}],error:null,serverRendered:true};</script><script src=\\"/_nuxt/runtime.js\\" defer></script><script src=\\"/_nuxt/pages/background-image.js\\" defer></script><script src=\\"/_nuxt/commons.app.js\\" defer></script><script src=\\"/_nuxt/app.js\\" defer></script>
+    <div data-server-rendered=\\"true\\" id=\\"__nuxt\\"><!----><div id=\\"__layout\\"><div><h1>-</h1> <h2>-</h2></div></div></div><script>window.__NUXT__={layout:\\"default\\",data:[{}],error:null,serverRendered:true};</script><script src=\\"/_nuxt/runtime.js\\" defer></script><script src=\\"/_nuxt/pages/background-image.js\\" defer></script><script src=\\"/_nuxt/commons.app.js\\" defer></script><script src=\\"/_nuxt/app.js\\" defer></script>
   </body>
 </html>
 "
