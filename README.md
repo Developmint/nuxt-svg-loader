@@ -37,6 +37,7 @@ A live demo is available through the [CodeSandBox](https://codesandbox.io/s/gith
 ```
 
 - Now you can use your svg files like regular Vue components
+- You can use inline svg as well by adding `?inline` at the end of the file path
 ```
 <template>
   <nav>
@@ -51,6 +52,14 @@ A live demo is available through the [CodeSandBox](https://codesandbox.io/s/gith
     <a href="https://github.com/webpack/webpack">
       <WebpackLogo />
       webpack
+    </a>
+    <!-- Inline svg -->
+    <a class="with-background-svg" href="https://github.com/webpack/webpack">
+      webpack
+    </a>
+    <a href="https://github.com/webpack/webpack">
+      <img src="../components/NuxtTwo.svg?inline">
+      webpack>
     </a>
   </nav>
 </template>
@@ -68,6 +77,11 @@ export default {
   }
 };
 </script>
+<style>
+.with-background-svg {
+  background: url('@/assets/svg/vue.svg?inline')
+}
+</style>
 ```
 
 - No more options are needed. It'll simply work
