@@ -86,6 +86,19 @@ export default {
 
 - No more options are needed. It'll simply work
 
+### TypeScript Specificities
+
+When using Nuxt with TypeScript you need to add custom typing to help the TypeScript Engine to know what is the `svg` extension.
+
+```ts
+// file: types.d.ts
+
+declare module '*.svg' {
+  const content: any
+  export default content
+}
+```
+
 ## Configuration
 
 The plugin will work seamlessly out of the box.
