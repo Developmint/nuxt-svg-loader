@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/Developmint/nuxt-svg-loader/compare/v1.0.1...v1.1.0) (2020-01-22)
+
+
+### Bug Fixes
+
+* use image name function when using inline query ([c90a8ed](https://github.com/Developmint/nuxt-svg-loader/commit/c90a8ed))
+
+
+### Features
+
+* proper loading svg used as background url ([#50](https://github.com/Developmint/nuxt-svg-loader/issues/50)) ([9df6300](https://github.com/Developmint/nuxt-svg-loader/commit/9df6300))
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/Developmint/nuxt-svg-loader/compare/v1.0.0...v1.0.1) (2019-01-11)
 
