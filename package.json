@@ -74,7 +74,7 @@
     "eslint-plugin-vue": "^5.1.0",
     "get-port": "^4.1.0",
     "husky": "^1.3.1",
-    "jest": "^23.6.0",
+    "jest": "^27.0.4",
     "jsdom": "^13.1.0",
     "nuxt-edge": "^2.4.0-25786640.3ebd6b70",
     "standard-version": "^4.4.0"
