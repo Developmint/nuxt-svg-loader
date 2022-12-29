@@ -38,7 +38,7 @@ A live demo is available through the [CodeSandBox](https://codesandbox.io/s/gith
 
 - Now you can use your svg files like regular Vue components
 - You can use inline svg as well by adding `?inline` at the end of the file path
-```
+```vue
 <template>
   <nav>
     <a href="https://github.com/vuejs/vue">
